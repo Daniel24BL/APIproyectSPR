@@ -21,7 +21,7 @@ const connection = mysql.createConnection({
 // RUTAS PARA EL USO DE LA API
 
 // 0. Raiz
-app.get('/', (req, res) => {
+app.get('/', function (req, res) => {
   res.send('Bienvenidos a la API para el Sistema de Procesos de Solicitud y Validación de Documentos para Promociones y Recategorizaciones')
 })
 
